@@ -17,10 +17,10 @@ void xuatMang(int a[], int n){
 }
 
 void selectionSort(int a[], int n){
-    for(int i = 0; i < n-1; i++){
-        int m=i;
-        for(int j = i+1; j < n; j++){
-            if(a[j] < a[m]){
+    for(int i=0; i<n-1; i++){
+        int m =i;
+        for(int j=i+1; j<n; j++){
+            if(a[j]<a[m]){
                 m = j;
             }
         }
